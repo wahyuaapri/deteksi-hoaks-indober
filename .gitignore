@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# PyTorch checkpoints & Large model weights
+*.pt
+*.bin
+*.onnx
+
+# Data (opsional, jika ingin menyimpan dataset secara terpisah)
+data/raw/temp_download.csv
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
